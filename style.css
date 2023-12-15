@@ -1,0 +1,49 @@
+/* Подключение внешнего шрифта */
+@font-face {
+    font-family: 'Aguante';
+    src: url(fonts/Aguante-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px; /* Размер шрифта */
+    /* font-family: 'Courier New', Courier, monospace; Тип шрифта */
+    /* font-weight: 900; Толщина шрифта */
+    /* font-style: italic; Курсив */
+    color: rgb(36, 5, 94); /*Цвет шрифта
+}
+
+p {
+    /* Изменение регистра текста */
+    text-transform: capitalize; /* Первая буква слова с заглавной */
+    text-transform: uppercase; /* Верхний регистр */
+    text-transform: lowercase; /* Нижний регистр */
+    text-transform: capitalize; /* Без форматирования */
+
+    text-decoration: line-through; /* Перечеркнутый текст */
+    text-decoration: underline line-through; /* 2 свойства разом */
+    text-decoration: aqua; /* Без форматирования */
+
+    text-shadow: 5px -4px 3px #020014; /* Тень текста */
+
+    text-align: left; /* Выравнивание текста слева */
+    text-align: right; /* Выравнивание текста справа */
+    text-align: justify; /* Выравнивание текста по ширине */
+    text-align: center; /* Выравнивание текста по центру */
+
+    text-indent: 90px; /* Отступ первой строки в пикселях */
+}
+
+
+div {
+
+
+    width: 1920px; /* Ширина */
+    height: 50px; /* Высота */
+
+    background-color: blue; /* Цвет фона */
+    opacity: .4; /* Прозрачность */
+}
